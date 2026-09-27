@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="GFunction Lite — descargas oficiales y EEG desde GitHub."
+    />
+    <title>GFunction Lite</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="glow glow-one"></div>
+      <div class="glow glow-two"></div>
+
+      <header class="topbar glass-panel">
+        <button class="brand-button" data-screen="home" type="button" aria-label="Inicio">
+          <span class="brand-mark">G</span>
+          <span class="brand-name">GFunction Lite</span>
+        </button>
+      </header>
+
+      <main class="app-shell">
+        <section id="home-screen" class="screen active">
+          <div class="glass-panel main-panel">
+            <p class="eyebrow">Web oficial</p>
+            <h1>¿Dónde quieres ir?</h1>
+
+            <div class="cta-row">
+              <button class="glass-button primary" data-screen="downloads" type="button">Versiones</button>
+              <button class="glass-button" data-screen="eeg" type="button">EEG</button>
+            </div>
+          </div>
+        </section>
+
+        <section id="downloads-screen" class="screen">
+          <div class="glass-panel content-panel">
+            <div class="section-header">
+              <div class="header-left">
+                <button class="back-button" data-screen="home" type="button" aria-label="Volver al inicio">←</button>
+                <div>
+                  <p class="eyebrow">Descargas</p>
+                  <h2>Versiones</h2>
+                </div>
+              </div>
+              <button class="ghost-button" data-screen="beta" type="button">Versiones Beta</button>
+            </div>
+
+            <div id="stable-container" class="card-list" aria-live="polite"></div>
+          </div>
+        </section>
+
+        <section id="beta-screen" class="screen">
+          <div class="glass-panel content-panel">
+            <div class="section-header">
+              <div class="header-left">
+                <button class="back-button" data-screen="downloads" type="button" aria-label="Volver a versiones">←</button>
+                <div>
+                  <p class="eyebrow">Betas</p>
+                  <h2>Versiones Beta</h2>
+                </div>
+              </div>
+            </div>
+
+            <div id="beta-container" class="card-list" aria-live="polite"></div>
+          </div>
+        </section>
+
+        <section id="eeg-screen" class="screen">
+          <div class="glass-panel content-panel">
+            <div class="section-header">
+              <div class="header-left">
+                <button class="back-button" data-screen="home" type="button" aria-label="Volver al inicio">←</button>
+                <div>
+                  <p class="eyebrow">EEG</p>
+                  <h2>Archivos EEG</h2>
+                </div>
+              </div>
+            </div>
+
+            <div id="eeg-container" class="card-list" aria-live="polite"></div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
