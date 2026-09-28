@@ -1,7 +1,0 @@
-# Gboard Dictionary version:2
-# Gboard Dictionary format:shortcut	word	language_tag	pos_tag
-1cuestion1	?		
-0	¡		
-1cuestion2	¿		
-27clean			
-hola	👋👋✋✋		
