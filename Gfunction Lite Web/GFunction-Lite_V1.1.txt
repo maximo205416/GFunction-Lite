@@ -1,6 +1,0 @@
-# Gboard Dictionary version:2
-# Gboard Dictionary format:shortcut	word	language_tag	pos_tag
-F1.1	?		
-F0	¡		
-F1.2	¿		
-F27			
