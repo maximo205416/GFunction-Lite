@@ -1,0 +1,17 @@
+# Gboard Dictionary version:2
+# Gboard Dictionary format:shortcut	word	language_tag	pos_tag
+F2	!		
+F1	?		
+info	GFunction Lite V1.2 Beta 3 		
+help	https://1c2b3help.pages.dev		
+nov	https://1c2b3nov.pages.dev		
+upd	https://gfunctiondownload.pages.dev		
+in	¡		
+gr	º		
+iv	¿		
+3p	…		
+fli	←		
+fle	→		
+riz	√		
+inf	∞		
+F27			
